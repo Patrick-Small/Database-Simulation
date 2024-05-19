@@ -1,0 +1,117 @@
+Welcome to the Audit Trail
+
+Start Date: 2023-12-02 15:43:00
+
+--------------------------
+
+2023-12-02 15:44:18 - User with username: adminUser logged in (Success)
+
+2023-12-02 15:44:18 - Admin Login (Success)
+
+2023-12-02 15:44:41 - Attempted to view table: LogIn_Credential (Success)
+2023-12-02 15:44:41 - Query: SELECT * FROM LogIn_Credential
+
+2023-12-02 15:44:58 - Attempted to edit user's role (Success)
+2023-12-02 15:44:58 - Query: UPDATE LogIn_Credential SET role = SE WHERE username = testUser
+
+2023-12-02 15:45:03 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:45:03 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:45:12 - Attempted to view table: LogIn_Credential (Success)
+2023-12-02 15:45:12 - Query: SELECT * FROM LogIn_Credential
+
+2023-12-02 15:45:48 - Attempted to insert data (Success)
+2023-12-02 15:45:48 - Query: INSERT INTO SE_Data VALUES ('90909', 'test1', 'test2', 'test3', '10/10/1010')
+
+2023-12-02 15:45:52 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:45:52 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:46:02 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:46:02 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:46:32 - Attempted to update data (Success)
+2023-12-02 15:46:32 - Query: UPDATE SE_Data SET name = testing1, projectname = testing2, supervisor = testing3, deadline = 01/01/0101 WHERE id = 90909
+
+2023-12-02 15:46:37 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:46:37 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:46:45 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:46:45 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:46:50 - Attempted to delete data (Success)
+2023-12-02 15:46:50 - Query: DELETE FROM SE_Data WHERE id = 90909
+
+2023-12-02 15:46:54 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:46:54 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:46:59 - User exited database, program closed (Success)
+
+2023-12-02 15:51:09 - User with username: adminUser logged in (Success)
+
+2023-12-02 15:51:09 - Admin Login (Success)
+
+2023-12-02 15:51:18 - Attempted to view table: LogIn_Credential (Success)
+2023-12-02 15:51:18 - Query: SELECT * FROM LogIn_Credential
+
+2023-12-02 15:51:33 - Attempted to add new user (Success)
+2023-12-02 15:51:33 - Query: INSERT INTO LogIn_Credential (username, password, role) VALUES (testUser, testPass, HR)
+
+2023-12-02 15:51:43 - Attempted to view table: LogIn_Credential (Success)
+2023-12-02 15:51:43 - Query: SELECT * FROM LogIn_Credential
+
+2023-12-02 15:52:00 - Attempted to edit user's role (Success)
+2023-12-02 15:52:00 - Query: UPDATE LogIn_Credential SET role = SE WHERE username = testUser
+
+2023-12-02 15:52:35 - Attempted to insert data (Success)
+2023-12-02 15:52:35 - Query: INSERT INTO SE_Data VALUES ('98889', 'test1', 'test2', 'test3', '10/10/1010')
+
+2023-12-02 15:52:40 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:52:40 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:52:50 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:52:50 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:53:06 - Attempted to update data (Success)
+2023-12-02 15:53:06 - Query: UPDATE SE_Data SET name = testing1, projectname = testing2, supervisor = testing3, deadline = 01/01/0101 WHERE id = 98889
+
+2023-12-02 15:53:11 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:53:11 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:53:23 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:53:23 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:53:30 - Attempted to delete data (Success)
+2023-12-02 15:53:30 - Query: DELETE FROM SE_Data WHERE id = 98889
+
+2023-12-02 15:53:34 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:53:34 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:53:40 - User exited database, program closed (Success)
+
+2023-12-02 15:53:52 - User with username: testUser logged in (Success)
+
+2023-12-02 15:53:52 - SE Login (Success)
+
+2023-12-02 15:53:59 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:53:59 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:54:28 - Attempted to insert data (Success)
+2023-12-02 15:54:28 - Query: INSERT INTO SE_Data VALUES ('90000', 'test1', 'test2', 'test3', '10/10/1000')
+
+2023-12-02 15:54:31 - Attempted to view table: SE_Data (Success)
+2023-12-02 15:54:31 - Query: SELECT * FROM SE_Data
+
+2023-12-02 15:54:35 - User exited database, program closed (Success)
+
+2023-12-05 11:06:01 - User with username: adminUser logged in (Success)
+
+2023-12-05 11:06:01 - Admin Login (Success)
+
+2023-12-05 11:06:44 - Attempted to insert data (Success)
+2023-12-05 11:06:44 - Query: INSERT INTO Emp_HR VALUES ('50050', '4554 whatever ln', '8783938585', 'rankTest')
+
+2023-12-05 11:06:49 - Attempted to view table: Emp_HR (Success)
+2023-12-05 11:06:49 - Query: SELECT * FROM Emp_HR
+
+2023-12-05 11:07:01 - User exited database, program closed (Success)
+
